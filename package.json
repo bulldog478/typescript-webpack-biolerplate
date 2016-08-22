@@ -1,0 +1,23 @@
+{
+  "name": "typescript-webpack-biolerplate",
+  "version": "1.0.0",
+  "description": "typescript webpack",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --history-api-fallback --inline --colors --progress --display-error-details --display-cached --host 0.0.0.0 --port 8004 --content-base"
+  },
+  "keywords": [
+    "typescript",
+    "webpack",
+    "biolerplate"
+  ],
+  "author": "Zan",
+  "license": "MIT",
+  "devDependencies": {
+    "angular": "^1.5.8",
+    "jquery": "^3.1.0",
+    "lodash": "^4.15.0",
+    "ts-loader": "^0.8.2",
+    "typescript": "^1.8.10"
+  }
+}
