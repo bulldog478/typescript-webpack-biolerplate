@@ -3,6 +3,9 @@
 import dogSay from './dog'
 import * as _ from "lodash";
 
+var requireWord = require("./requireWord")
+requireWord("require")
+
 //require进来的angular即使有d.ts也无法有接口提示，必须使用import
 // let angular = require('angular') 
 
