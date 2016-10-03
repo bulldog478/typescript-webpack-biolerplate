@@ -1,3 +1,5 @@
+/// <reference path="angular.d.ts" />
+
 import dogSay from './dog'
 import * as _ from "lodash";
 
